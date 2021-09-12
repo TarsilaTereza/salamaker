@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline; /*alinhar uma imagem ao texto, por exemplo */
+    margin: 0;
+    list-style: none;
+    border: 0;
+}
+
+header {
+    width: 100%;
+    height: 150px;    
+    background-image: url('./images/headergiphy.gif');
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px black;    
+    font-family: 'Inconsolata', monospace;
+    color: limegreen;
+    font-size: 40px;
+    
+    
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo__text {
+    padding-top: 10%;
+    
+}
+
+
