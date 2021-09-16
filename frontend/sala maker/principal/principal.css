@@ -11,23 +11,39 @@ header {
     width: 100%;
     height: 150px;    
     background-image: url('./images/headergiphy.gif');
-    border-radius: 12px;
-    box-shadow: 10px 10px 10px black;    
+    border-radius: 0px 12px 10px 0px;
+    box-shadow: 10px 10px 10px 10px gray;    
     font-family: 'Inconsolata', monospace;
     color: limegreen;
     font-size: 40px;
-    
-    
+        
 }
 
 .titulo {
     display: flex;
     justify-content: center;
+    padding-top: 3%;
 }
 
-.titulo__text {
-    padding-top: 10%;
+aside {
+    display: flex;
+    justify-content: end;
+    margin-top: 10%;
+    
     
 }
 
+#aside__button {
+    background-color:transparent;
+    display: flex;
+    margin-bottom: 40%;
+}
+
+.aside__button {
+    max-width: 60%;
+}
+
+aside > ul {
+    
+}
 
